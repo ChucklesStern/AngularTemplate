@@ -10,6 +10,9 @@
 		//is passed on to the Controller
 		var o = {};
 		//A color randomizer in DIRE need of improvement :)
+// Your core coderbyte functions will reside HERE and you already have a button to execute them :)
+//remember the core function starts here, is passed to the HOMECONTROLLER (via $.inject), then finally 
+//is passed to the HOME.HTML via "ng-controller" and "vm"
 o.colorChange = function() {
 	if (Math.random() > .5) {
 		document.getElementById("body").style.background = "blue";
