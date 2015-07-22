@@ -21,7 +21,8 @@ o.colorChange = function() {
 		document.getElementById("body").style.background = "red";
 	}
 }
-
+// "o" Must be returned in order for the functions that are part of the "o" object to exist.
+//Not returning "o" might give you an error of "[injector:undef]" aka undefined in the console
 return o;
 }
 })();
